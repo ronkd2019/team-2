@@ -1,0 +1,75 @@
+:root {
+    --main-font:"Montserrat", sans-serif;
+    --secondary-font:"Kaushan Script", cursive;
+    --paragraph-font: "Roboto", sans-serif;
+    --main-color: #95E1D3;
+    --secondary-color: #F38181;
+    --text-color: #333333;
+    --paragraph-color: #B6B6B6;
+
+
+}
+.list {
+    list-style-type: none;
+    color: var(--text-color);
+}
+.list-items a{
+    color: var(--main-color);
+    text-decoration: none;
+    font-family: var(--main-font);
+    transition: 0.3s ease;
+}
+.list-items a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+    font-size: larger;
+}
+.list-items:first-child {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.57px;
+}
+.info-block h4 {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34.82px;
+    text-align: center;
+}
+.info-block h2 {
+    font-family: var(--main-font);
+    text-align: center;
+    font-weight: 700;
+    size: 30px;
+    line-height: 36.57px;
+}
+.photography-list {
+    list-style-type: none;
+}
+.photography-list h5 {
+    font-family: var(--main-font);
+    font-weight: 400;
+    line-height: 17.07px;
+    font-size: 14px;
+}
+.photography-list p {
+    color: var(--paragraph-color);
+    font-family: var(--paragraph-font);
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 15px;
+}
+.info-block2 h4 {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34.82px;
+    text-align: center;
+}
+.info-block2 h2 {
+    font-family: var(--main-font);
+    text-align: center;
+    font-weight: 700;
+    size: 30px;
+    line-height: 36.57px;
+}
